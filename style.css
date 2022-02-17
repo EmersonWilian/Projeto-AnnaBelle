@@ -1,0 +1,45 @@
+@charset "UFT-8";
+body{
+    background-color: #d2d2c1;
+    background-image: url(imagens/fundo.png);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 270px;
+}
+#principal{         /*Container principal para que não passe dos 900px*/
+    /*border: 1px solid red;*/
+    width: 900px; 
+}
+#menu{
+    /*border: 1px solid red;*/
+    background-color: #c5c5b2;
+    padding: 18px; /*Aplicação de espaçamento interno*/
+    text-align: right;
+
+}
+#conteudo{
+    background-color: #c5c5b2;
+    padding: 10px;
+}
+.img-campanhas{
+    border: 10px solid #c0c080;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(141, 49, 49);
+    font-weight: bolder;
+    /*border: solid red;*/
+    padding: 5px;
+}
+h2{
+    color: #828281;
+    font-size: 1.4em;
+
+}
+p{
+    text-align: justify;
+
+}
+
